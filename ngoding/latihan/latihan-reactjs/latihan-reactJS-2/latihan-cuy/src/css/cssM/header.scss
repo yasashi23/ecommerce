@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+
+.contNav {
+    padding: 20px 110px 15px 110px;
+    background-color: red;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    ul:first-child {
+        display:flex;
+        li{
+            font-size: 18px;
+            color: white;
+            cursor: pointer;
+        }
+        li:hover {
+            color: blue;
+            font-size: 12px;
+        }
+        li:nth-child(2) {
+            margin: 0px 5px 0px 5px;
+        }
+    }
+    ul:last-child {
+        li{
+            color: white;
+            font-weight: bold;
+            font-size: 30px;
+        }
+    }
+}
+
+h1{
+    color: black;
+}

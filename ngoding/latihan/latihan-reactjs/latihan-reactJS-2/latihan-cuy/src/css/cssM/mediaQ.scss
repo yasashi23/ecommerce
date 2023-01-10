@@ -1,0 +1,16 @@
+@media only screen and (max-width: 600px){
+    .contNav {
+        ul:first-child {
+            display:none;
+        }
+    }
+    .body {
+        .kotamPemb {
+            div:nth-child(2){
+                display: none;
+            }
+        }
+    }
+
+
+}
