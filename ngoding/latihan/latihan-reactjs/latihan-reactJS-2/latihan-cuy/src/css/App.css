@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.contNav {
+  padding: 20px 110px 15px 110px;
+  background-color: red;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.contNav ul:first-child {
+  display: flex;
+}
+.contNav ul:first-child li {
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+}
+.contNav ul:first-child li:hover {
+  color: blue;
+  font-size: 12px;
+}
+.contNav ul:first-child li:nth-child(2) {
+  margin: 0px 5px 0px 5px;
+}
+.contNav ul:last-child li {
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+h1 {
+  color: black;
+}
+
+.body .kotakPemb {
+  display: flex;
+  justify-content: space-evenly;
+}
+.body .kotakPemb div {
+  width: 90px;
+  height: 90px;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.body .kotakPemb div:nth-child(1) {
+  background-color: blue;
+}
+.body .kotakPemb div:nth-child(2) {
+  background-color: red;
+}
+.body .kotakPemb div:nth-child(3) {
+  background-color: yellow;
+}
+.body .kotakPemb div:nth-child(4) {
+  background-color: green;
+}
+
+@media only screen and (max-width: 600px) {
+  .contNav ul:first-child {
+    display: none;
+  }
+  .body .kotamPemb div:nth-child(2) {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=App.css.map */

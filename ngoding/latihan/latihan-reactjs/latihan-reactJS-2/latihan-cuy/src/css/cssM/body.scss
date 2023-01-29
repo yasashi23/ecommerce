@@ -1,0 +1,26 @@
+.body{
+    .kotakPemb {
+        display: flex;
+        justify-content: space-evenly;
+        div{
+            width: 90px;
+            height: 90px;
+            font-size: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        div:nth-child(1){
+            background-color: blue;
+        }
+        div:nth-child(2){
+            background-color: red;
+        }
+        div:nth-child(3){
+            background-color: yellow;
+        }
+        div:nth-child(4){
+            background-color: green;
+        }
+    }
+}
