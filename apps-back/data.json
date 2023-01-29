@@ -1,0 +1,22 @@
+[
+    {
+        "Produk":"barbel",
+        "gambar":"",
+        "harga":"500000"
+    },
+    {
+        "Produk":"headset",
+        "gambar":"",
+        "harga":"300000"
+    },
+    {
+        "Produk":"buku",
+        "gambar":"",
+        "harga":"800000"
+    },
+    {
+        "Produk":"kipas",
+        "gambar":"",
+        "harga":"5789900"
+    }
+]
